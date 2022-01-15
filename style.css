@@ -1,0 +1,64 @@
+body {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(237, 239, 243);
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 35%;
+    width: 50%;
+    background-color: white;
+/*    margin-top: 25%;
+    margin-left: 35%;
+    margin-right: 35%;*/
+    border-radius: 25px;
+    margin-top: 10%;
+}
+
+.title {
+    color: rgb(40, 40, 57);
+    font-family: 'Varela Round', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.searchform {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+input {
+    margin-top: 5px;
+}
+
+
+/*
+// buttons, text
+darkest gray
+rgb(40, 40, 57)
+40 48 57
+
+// text
+dark gray
+rgb(63, 70, 81)
+
+gray
+rgb(104, 110, 120)
+
+light gray
+rgb(173, 180, 190)
+
+// borders
+lighter gray
+rgb(212, 215, 222)
+
+// background, input field
+lightest gray
+rgb(237, 239, 243)
+*/
